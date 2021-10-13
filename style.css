@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+* {
+   margin: 0;
+}
+
+main {
+   max-width: 22rem;
+   margin: 8rem auto 0;
+   padding: .8rem;
+   box-sizing: border-box;
+   border-radius: 3px;
+   box-shadow: 0 0 5px rgb(156, 152, 152);
+   display: grid;
+   grid-template-rows: 3.2rem repeat(6, 2.8rem);
+   grid-template-columns: repeat(4, 4.5rem);
+   grid-gap: .8rem;
+}
+
+#result {
+   border: 1px solid black;
+   grid-area: 1/1/2/-1;
+}
+
+#box {
+   position: relative;
+   font-size: 1.7rem;
+   width: 23ch;
+   height: 100%;
+   margin-inline: auto;
+   text-align: left;
+   overflow: hidden;
+}
+
+#output {
+   width: 80rem;
+   position: absolute;
+   right: 0;
+   font-family: fantasy, sans-serif;
+   letter-spacing: 1px;
+   text-align: right;
+   line-height: 1;
+   margin-top: 10px;
+}
+
+/* #num {
+   grid-area: 3/1/-1/4;
+} */
+
+#clean {
+   grid-area: 3/-2/4/-1;
+}
+
+#ni {
+   grid-area: 4/-2/-1/-1;
+}
+
+button {
+   border: 1px solid black;
+   font-size: 1rem;
+}
+
+button:hover {
+   box-shadow: 0 0 3px rgb(126, 121, 121);
+   transition: .2s;
+}
