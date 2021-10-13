@@ -36,16 +36,12 @@ main {
    width: 80rem;
    position: absolute;
    right: 0;
-   font-family: fantasy, sans-serif;
+   font-family: sans-serif;
    letter-spacing: 1px;
    text-align: right;
    line-height: 1;
    margin-top: 10px;
 }
-
-/* #num {
-   grid-area: 3/1/-1/4;
-} */
 
 #clean {
    grid-area: 3/-2/4/-1;

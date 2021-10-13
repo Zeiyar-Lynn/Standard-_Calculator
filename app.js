@@ -22,7 +22,7 @@ clear.onclick = function(eve) {
 }
 
 ni.onclick = function (eve){
-   let text = '9×(9÷3(5+1))-(1-0)';//output.innerHTML;
+   let text = output.innerHTML;
    output.innerHTML = Calculation(text);
 }
 
